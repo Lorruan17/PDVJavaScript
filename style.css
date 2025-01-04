@@ -3,15 +3,18 @@
     margin: 0;
     padding: 0;
     outline: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .main-login{
     width: 100vw;
     height: 100vh;
-    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(assets/fundopdv.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .left-login{
@@ -21,7 +24,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;    
-    background: #b0c4e0;
+    background: w;
+
 }
 
 .right-login{
@@ -30,7 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #b0c4e0;
+   
 }
 .card-login{
     width: 60%;
@@ -39,13 +43,63 @@
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: #9bb5da;
     border-radius: 25px;
     box-shadow: 0px 10px 40px #00000059;
+    background-color: white;
+    
 }
 .textfield {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: center;
+    margin: 10px 0px;
 }
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    outline: none;
+    box-shadow: 0px 10px 40px #00000056;
+    box-sizing: border-box;
+    align-items: center;
+    
+}
+
+.textfield > ::placeholder{
+    color: #cccccc;
+}
+.textfield > label{
+    margin-bottom: 10px;
+}
+.texttitle{
+    margin-bottom: 30px;
+}
+
+.textdiv{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-login{
+    width: 60%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: nome;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 4px;
+    cursor: pointer;
+    background-color: #e0dede;
+}
+.imgfundo{
+    width: 100%;
+    position: relative;
+}
+
+
